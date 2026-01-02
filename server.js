@@ -106,6 +106,6 @@ function broadcast(data) {
     });
 }
 
-server.listen(PORT, () => {
-    console.log(`Master Server live on port ${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Master Server is officially rocking on port ${PORT}`);
 });
